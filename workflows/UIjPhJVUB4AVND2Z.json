@@ -10,8 +10,8 @@
       "type": "n8n-nodes-base.manualTrigger",
       "typeVersion": 1,
       "position": [
-        380,
-        120
+        340,
+        520
       ]
     },
     {
@@ -46,5 +46,5 @@
     "callerPolicy": "workflowsFromSameOwner"
   },
   "triggerCount": 0,
-  "versionId": "51675a43-caf2-40dd-b911-03cb4e92fee3"
+  "versionId": "7804736e-8a6b-413b-ac61-91c3379fcb9e"
 }
