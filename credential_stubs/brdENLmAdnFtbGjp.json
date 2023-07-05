@@ -1,0 +1,23 @@
+{
+  "id": "brdENLmAdnFtbGjp",
+  "name": "Header Auth account",
+  "type": "httpHeaderAuth",
+  "data": {
+    "name": "",
+    "value": ""
+  },
+  "nodesAccess": [
+    {
+      "nodeType": "n8n-nodes-base.graphql",
+      "date": "2023-07-05T10:24:30.010Z"
+    },
+    {
+      "nodeType": "n8n-nodes-base.wait",
+      "date": "2023-07-05T10:24:30.010Z"
+    },
+    {
+      "nodeType": "n8n-nodes-base.webhook",
+      "date": "2023-07-05T10:24:30.010Z"
+    }
+  ]
+}

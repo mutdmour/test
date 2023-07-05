@@ -1,0 +1,14 @@
+{
+  "id": "O3HJJxhD3wdl7mvb",
+  "name": "test",
+  "type": "slackApi",
+  "data": {
+    "accessToken": ""
+  },
+  "nodesAccess": [
+    {
+      "nodeType": "n8n-nodes-base.slack",
+      "date": "2023-07-05T10:20:45.332Z"
+    }
+  ]
+}
