@@ -1,0 +1,23 @@
+{
+  "id": "Bkt4WkagIJk1NSYU",
+  "name": "other",
+  "type": "httpHeaderAuth",
+  "data": {
+    "name": "",
+    "value": ""
+  },
+  "nodesAccess": [
+    {
+      "nodeType": "n8n-nodes-base.graphql",
+      "date": "2023-07-05T10:38:42.589Z"
+    },
+    {
+      "nodeType": "n8n-nodes-base.wait",
+      "date": "2023-07-05T10:38:42.589Z"
+    },
+    {
+      "nodeType": "n8n-nodes-base.webhook",
+      "date": "2023-07-05T10:38:42.589Z"
+    }
+  ]
+}

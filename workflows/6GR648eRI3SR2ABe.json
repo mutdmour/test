@@ -4,17 +4,6 @@
   "name": "My workflow hello world",
   "nodes": [
     {
-      "parameters": {},
-      "id": "ce4f967f-a1bd-4e6a-85a8-90cb212aff17",
-      "name": "When clicking \"Execute Workflow\"",
-      "type": "n8n-nodes-base.manualTrigger",
-      "typeVersion": 1,
-      "position": [
-        500,
-        300
-      ]
-    },
-    {
       "parameters": {
         "url": "https://i.natgeofe.com/k/8fa25ea4-6409-47fb-b3cc-4af8e0dc9616/red-eyed-tree-frog-on-leaves-3-2_3x2.jpg",
         "authentication": "genericCredentialType",
@@ -35,10 +24,32 @@
           "name": "test"
         }
       }
+    },
+    {
+      "parameters": {
+        "authentication": "headerAuth",
+        "path": "36da57c8-6650-4d4d-8d93-ca3a86cdd03a",
+        "options": {}
+      },
+      "id": "d320f019-984b-438a-ba95-c05d52e648f2",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        420,
+        320
+      ],
+      "webhookId": "36da57c8-6650-4d4d-8d93-ca3a86cdd03a",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "Bkt4WkagIJk1NSYU",
+          "name": "other"
+        }
+      }
     }
   ],
   "connections": {
-    "When clicking \"Execute Workflow\"": {
+    "Webhook": {
       "main": [
         [
           {
@@ -52,5 +63,5 @@
   },
   "settings": {},
   "triggerCount": 0,
-  "versionId": "c258aa3a-9943-4370-a099-5d2f2ea613d3"
+  "versionId": "2f184ccf-72f6-40da-9138-d48479c89aba"
 }
