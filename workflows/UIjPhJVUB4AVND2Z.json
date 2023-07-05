@@ -1,0 +1,50 @@
+{
+  "active": false,
+  "id": "UIjPhJVUB4AVND2Z",
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "aca2e57f-73b5-4806-bb0f-841d495f3901",
+      "name": "When clicking \"Execute Workflow\"",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        560,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "6977b6de-ead3-4f3f-b338-f3b19d7b0c9c",
+      "name": "Set",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [
+        780,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "When clicking \"Execute Workflow\"": {
+      "main": [
+        [
+          {
+            "node": "Set",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "triggerCount": 0,
+  "versionId": "4a198c8d-9a34-41e8-9d15-4988465e440e"
+}
