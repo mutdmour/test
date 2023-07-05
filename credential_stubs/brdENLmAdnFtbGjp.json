@@ -1,6 +1,6 @@
 {
   "id": "brdENLmAdnFtbGjp",
-  "name": "Header Auth account",
+  "name": "test",
   "type": "httpHeaderAuth",
   "data": {
     "name": "",

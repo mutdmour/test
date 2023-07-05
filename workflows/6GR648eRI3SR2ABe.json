@@ -32,7 +32,7 @@
       "credentials": {
         "httpHeaderAuth": {
           "id": "brdENLmAdnFtbGjp",
-          "name": "Header Auth account"
+          "name": "test"
         }
       }
     }
@@ -52,5 +52,5 @@
   },
   "settings": {},
   "triggerCount": 0,
-  "versionId": "e463592e-1686-4c58-ad6c-b59fbd26a87e"
+  "versionId": "c258aa3a-9943-4370-a099-5d2f2ea613d3"
 }
